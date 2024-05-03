@@ -1,0 +1,98 @@
+.courses{
+    margin-bottom: 180px;
+    .container{
+        .courses-top{
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+            margin-bottom: 60px;
+
+            .courses-heading-wrapper{
+                .courses-heading1{
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: 1px;
+                    color: #1E212C;
+                    font-weight: bold;
+                }
+
+                .courses-heading2{
+                    font-size: 46px;
+                    line-height: 130%;
+                    color: #1E212C;
+                }
+            }
+        }
+
+        .courses-main{
+            .courses-list{
+                display: flex;
+                align-items:center;
+                gap: 30px;
+                flex-wrap: wrap;
+                .courses-list-item{
+                    display: flex;
+                    align-items:center;
+                    gap: 32px;
+                    border:1px solid #E5E8ED;
+                    border-radius:4px;
+                    width: 600px;
+                    height: 214px;
+                    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                    transition: all .3s ease-in-out;
+
+                        &:hover{
+                            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+                            transition: all .3s ease-in;
+                        }
+
+                    .courses-list-item-left{
+                        img{
+                            width: 214px;
+                            height: 214px;
+                        }
+                    }
+
+                    .courses-list-item-right{
+                        .courses-direction{
+                            padding: 2px 8px;
+                            background-color: #03CEA4;
+                            border-radius:4px;
+                            font-size: 14px;
+                            line-height: 150%;
+                            color:#fff;
+                        }
+
+                        .courses-item-heading{
+                            font-size: 20px;
+                            line-height: 150%;
+                            color: #1E212C;
+                            width: 322px;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+
+                        .courses-item-price-name-wrapper {
+                            display: flex;
+                            align-items:center;
+                            gap: 8px;
+
+                                ins{
+                                    color: #FF4242;
+                                    font-size: 18px;
+                                    line-height: 150%;
+                                    font-weight: bold;
+                                }
+
+                                p{
+                                    color:#787A80;
+                                    font-size: 18px;
+                                    line-height: 150%;
+                                }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

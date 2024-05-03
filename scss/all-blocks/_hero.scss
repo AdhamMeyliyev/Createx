@@ -1,0 +1,97 @@
+.hero{
+    .container{
+        .hero-main{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 190px;
+
+            .hero-left{
+                .play-showreel{
+                    display: flex;
+                    align-items: center;
+                    gap: 16px;
+                    transition: all .2s ease-in-out;
+
+                    &:hover img{
+                        width: 60px;
+                        height: 60px;
+                        border:10px solid #fec8c0;
+                        transition: all .2s ease-in;
+                    }
+
+                    img{
+                        width: 52px;
+                        height: 52px;
+                        border-radius:50%;
+                        border:none;
+
+                            
+                    }
+
+                    .play-show-text{
+                        font-size: 14px;
+                        line-height: 150%;
+                        color: #1E212C;
+                        font-weight: bold;
+                    }
+                }
+
+                .hero-heading{
+                    font-size: 64px;
+                    line-height: 130%;
+                    width: 496px;
+                    margin-top: 24px;
+                    color:#1E212C;
+                    margin-bottom: 60px;
+                }
+
+                .hero-btn-wrapper{
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+
+                }
+            }
+
+            .hero-right{
+                img{
+                    width: 602px;
+                    height: 551px;
+                }
+            }
+        }
+
+        .hero-bottom{
+            .hero-bottom-list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                list-style: none;
+
+                .hero-span{
+                    width: 8px;
+                    height: 8px;
+                    background-color: #FF3F3A;
+                    border-radius:50%;
+                    display: block;
+                }
+
+                .hero-bottom-item{
+                    font-size: 16px;
+                    line-height: 160%;
+                    color:#1E212C;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    span{
+                        font-size: 46px;
+                        font-weight: bold;
+                        line-height:130%;
+                    }
+                }
+            }
+        }
+    }
+}

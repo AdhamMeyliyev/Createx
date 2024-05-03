@@ -1,0 +1,262 @@
+.consiltation-btn{
+    width: 206px;
+    height: 52px;
+    border-radius: 4px;
+    background: rgb(255,63,58);
+    background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+    border: 3px solid rgb(255,63,58);
+    font-size: 16px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-weight:bold;
+
+
+
+        &:hover{
+            background:transparent;
+            color:rgb(255,63,58);
+            font-weight: 600;
+            transition: all .3s ease-in-out;
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.2s ease-in;
+        }
+}
+
+.login-btn{
+    display: flex;
+    align-items:center;
+    gap: 8px;
+    width: 154px;
+    height: 26px;
+    background-color: transparent;
+    border:none;
+    color: #424551;
+    font-size: 16px;
+    line-height: 160%;
+    font-weight: bold;
+    cursor: pointer;
+    font-weight:bold;
+
+        i{
+            transition: all 0.2s ease-in-out;
+        }
+
+
+        &:hover i{
+            color: rgb(255,63,58);
+            transition: all 0.2s ease-in;
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.2s ease-in;
+        }
+}
+
+.about-btn{
+    width: 148px;
+    height: 52px;
+    border-radius:4px;
+    background-color: transparent;
+    border:1px solid rgb(255,63,58);
+    font-size: 16px;
+    color:rgb(255,63,58);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+        &:hover{
+            background: rgb(255,63,58);
+            background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+            transition: all 0.3s ease-in;
+            color:#fff;
+
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.3s ease-in;
+        }
+
+}
+
+.courses-btn{
+    width: 200px;
+    height: 52px;
+    border-radius:4px;
+    background: rgb(255,63,58);
+    background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+    border:1px solid rgb(255,63,58);
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+        &:hover{
+            background: transparent;
+            transition: all 0.3s ease-in;
+            color:rgb(255,63,58);
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.3s ease-in;
+        }
+
+}
+
+.why-more-about-us-btn{
+    width: 206px;
+    height: 52px;
+    border-radius: 4px;
+    background: rgb(255,63,58);
+    background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+    border: 3px solid rgb(255,63,58);
+    font-size: 16px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-weight:bold;
+
+
+
+        &:hover{
+            background:transparent;
+            color:rgb(255,63,58);
+            font-weight: 600;
+            transition: all .3s ease-in-out;
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.2s ease-in;
+        }
+}
+
+
+.courses-view-btn{
+    width: 202px;
+    height: 52px;
+    border-radius:4px;
+    background-color: transparent;
+    border:1px solid rgb(255,63,58);
+    font-size: 16px;
+    color:rgb(255,63,58);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+        &:hover{
+            background: rgb(255,63,58);
+            background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+            transition: all 0.3s ease-in;
+            color:#fff;
+
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.3s ease-in;
+        }
+
+}
+
+
+.posts-top-btn{
+    width: 159px;
+    height: 52px;
+    border-radius: 4px;
+    background: rgb(255,63,58);
+    background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+    border: 3px solid rgb(255,63,58);
+    font-size: 16px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-weight:bold;
+
+
+
+        &:hover{
+            background:transparent;
+            color:rgb(255,63,58);
+            font-weight: 600;
+            transition: all .3s ease-in-out;
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.2s ease-in;
+        }
+}
+
+.posts-item-btn{
+    display: flex;
+    align-items: center;
+    background-color:transparent;
+    border:none;
+    gap: 8px;
+    font-size: 16px;
+    color:#1e212c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover{
+        color: #FF3F3A;
+        transition: all .3s ease-in-out;
+
+        &:hover i{
+            color: #1e212c;
+            transition: all .3s ease-in;
+        }
+
+        &:active{
+            opacity: .6;
+        }
+    }
+
+    i{
+        color:#FF3F3A;
+        transition: all .3s ease-in;
+
+       
+    }
+}
+
+.subscription-btn{
+    width: 154px;
+    height: 52px;
+    border-radius: 4px;
+    background: rgb(255,63,58);
+    background: linear-gradient(170deg, rgba(255,63,58,1) 28%, rgba(247,94,5,1) 64%);
+    border: 3px solid rgb(255,63,58);
+    font-size: 16px;
+    color:#fff;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    font-weight:bold;
+
+
+
+        &:hover{
+            background:transparent;
+            color:rgb(255,63,58);
+            font-weight: 600;
+            transition: all .3s ease-in-out;
+        }
+
+        &:active{
+            opacity: 0.7;
+            transition: all 0.2s ease-in;
+        }
+}

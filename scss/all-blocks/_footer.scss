@@ -1,0 +1,155 @@
+.footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1e212c;
+    padding-top: 60px;
+    .container{
+        .footer-main{
+            .footer-main-list{
+                display: flex;
+                // align-items: center;
+                justify-content: space-between;
+
+                .footer-main-list-item {
+                    .footer-logo{
+                        width: 130px;
+                        height: 22px;
+                    }
+
+                    .footer-desc{
+                        font-size: 13px;
+                        line-height: 150%;
+                        color:#fff;
+                        width: 279px;
+                        margin-top: 24px;
+                        margin-bottom: 38px;
+                    }
+
+                    .icons-wrapper{
+                        display: flex;
+                        align-items: center;
+                        gap: 20px;
+                        
+
+                        i{
+                            color: #ffffff6e;
+                            cursor: pointer;
+                            transition: all .3s ease-in-out;
+
+                            &:hover{
+                                color:#fff;
+                                transition: all .3s ease-in;
+                            }
+                        }
+                    }
+
+                    .footer-main-item-heading{
+                        font-size: 16px;
+                        line-height: 150%;
+                        color:#fff;
+                        margin-bottom: 12px;
+                    }
+
+                    .footer-sign-up-form{
+                        position: relative;
+                        width: 286px;
+                        height: 36px;
+
+                        .footer-sign-up-input{
+                            width: 286px;
+                            height: 36px;
+                            border-radius: 4px;
+                            background-color: #393c46;
+                            border:1px solid #ffffff4b;
+                            padding-left: 12px;
+                            font-size: 12px;
+                            line-height: 150%;
+                            color: #fff;
+                        }
+
+                        i{
+                            position: absolute;
+                            right: 12px;
+                            top: 10px;
+                            color: #fff;
+
+                        }
+                    }
+
+                    .footer-sign-up-desc{
+                        font-size: 13px;
+                        line-height: 150%;
+                        color: #fff;
+                        width: 286px;
+                        margin-top:12px ;
+                    }
+
+                    .footer-main-item-list{
+                        display:flex;
+                        flex-direction: column;
+                        gap:8px;
+                        .footer-main-item__list-item{
+                            font-size: 16px;
+                            list-style: 160%;
+
+                            a{
+                                color: #ffffff92;
+                            }
+                        }
+
+                        .footer-tel{
+                            a{
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                            }
+                        }
+                        
+                        .footer-email{
+                            a{
+                                display: flex;
+                                align-items: center;
+                                gap: 8px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer-bottom{
+    padding-top: 20px;
+    width: 100%;
+    height: 58px;
+    background-color:#292c37;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer-bottom-desc1{
+            font-size: 14px;
+            line-height: 150%;
+            color: #fff;
+            letter-spacing: 1px;
+
+            i{
+                color:red;
+            }
+        }
+
+        .footer-bottom-desc2{
+            font-size: 14px;
+            line-height: 150%;
+
+            a{
+                color: #ffffff72;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
